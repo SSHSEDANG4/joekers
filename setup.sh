@@ -15,6 +15,7 @@ touch /root/domain;
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 
+apt -qq update; apt -y -qq upgrade;
 wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/cf.sh && bash cf.sh
 
 wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/sshvpn.sh && screen -S sshvpn bash sshvpn.sh
