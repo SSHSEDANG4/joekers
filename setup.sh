@@ -11,29 +11,26 @@ if [ -f "/etc/v2ray/domain" ]; then
 	echo "Script Already Installed"; exit 0
 fi
 
-SCRIPT_DIR=$( cd $(dirname "${BASH_SOURCE[0]}") && pwd )
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 
-bash $SCRIPT_DIR/scripts/cf.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/cf.sh && bash cf.sh
 
-screen -S sshvpn bash $SCRIPT_DIR/scripts/sshvpn.sh
-screen -S weleh bash $SCRIPT_DIR/scripts/weleh.sh
-screen -S ssr bash $SCRIPT_DIR/scripts/ssr.sh
-screen -S ss bash $SCRIPT_DIR/scripts/sodosok.sh
-screen -S wg bash $SCRIPT_DIR/scripts/wg.sh
-screen -S v2ray bash $SCRIPT_DIR/scripts/v2ray.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/sshvpn.sh && screen -S sshvpn bash sshvpn.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/weleh.sh && screen -S weleh bash weleh.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/ssr.sh && screen -S ssr bash ssr.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/sodosok.sh && screen -S ss bash sodosok.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/wg.sh && screen -S wg bash wg.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/v2ray.sh && screen -S v2ray bash v2ray.sh
 
-bash $SCRIPT_DIR/scripts/set-br.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/setbr.sh && bash set-br.sh
 
-rm -f /root/ssh-vpn.sh
+rm -f /root/sshvpn.sh
 rm -f /root/weleh.sh
 rm -f /root/wg.sh
 rm -f /root/ss.sh
 rm -f /root/ssr.sh
-rm -f /root/ins-vt.sh
 rm -f /root/set-br.sh
-rm -f /root/ins-trojango.sh
 
 cat << EOF > /etc/systemd/system/autosett.service
 [Unit]
