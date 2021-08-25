@@ -82,11 +82,11 @@ WG_RUNNING=$?
 cd /usr/bin
 wget -O add-wg "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/wireguard/add-wg.sh"
 wget -O del-wg "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/wireguard/del-wg.sh"
-# wget -O cek-wg "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/wireguard/cek-wg.sh"
+wget -O cek-wg "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/wireguard/cek-wg.sh"
 wget -O renew-wg "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/wireguard/renew-wg.sh"
 chmod +x add-wg
 chmod +x del-wg
-# chmod +x cek-wg
+chmod +x cek-wg
 chmod +x renew-wg
 cd
 rm -f /root/wg.sh
