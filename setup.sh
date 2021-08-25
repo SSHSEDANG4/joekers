@@ -14,23 +14,23 @@ fi
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/cf.sh && bash cf.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/cf.sh && bash cf.sh
 
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/sshvpn.sh && screen -S sshvpn bash sshvpn.sh
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/weleh.sh && screen -S weleh bash weleh.sh
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/ssr.sh && screen -S ssr bash ssr.sh
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/libev.sh && screen -S ss bash sodosok.sh
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/wireguard.sh && screen -S wg bash wg.sh
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/v2ray.sh && screen -S v2ray bash v2ray.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/sshvpn.sh && screen -S sshvpn bash sshvpn.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/weleh.sh && screen -S weleh bash weleh.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/ssr.sh && screen -S ssr bash ssr.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/libev.sh && screen -S ss bash libeb.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/wireguard.sh && screen -S wg bash wireguard.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/v2ray.sh && screen -S v2ray bash v2ray.sh
 
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/setbr.sh && bash set-br.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/setbr.sh && bash set-br.sh
 
 rm -f /root/sshvpn.sh
 rm -f /root/weleh.sh
-rm -f /root/wg.sh
-rm -f /root/ss.sh
+rm -f /root/wireguard.sh
+rm -f /root/libev.sh
 rm -f /root/ssr.sh
-rm -f /root/set-br.sh
+rm -f /root/setbr.sh
 
 cat << EOF > /etc/systemd/system/autosett.service
 [Unit]
