@@ -4,8 +4,8 @@ IP=$(wget -qO- ifconfig.me/ip);
 DOMAIN=joekersvpn.com
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 SUB_DOMAIN=${sub}.joekersvpn.com
-CF_ID=admin@joekersvpn.com
-CF_KEY=ed82a938151cb0439e9353080b631df858dd9
+CF_ID=doct.knowledge@gmail.com
+CF_KEY=aa816fbb38426b9fb210d390d2693fad1f8d3
 set -euo pipefail
 
 echo "Updating DNS for ${SUB_DOMAIN}..."
