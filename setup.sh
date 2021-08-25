@@ -19,8 +19,8 @@ https://raw.githubusercontent.com/cybertize/joekers/default/scripts/cf.sh && bas
 https://raw.githubusercontent.com/cybertize/joekers/default/scripts/sshvpn.sh && screen -S sshvpn bash sshvpn.sh
 https://raw.githubusercontent.com/cybertize/joekers/default/scripts/weleh.sh && screen -S weleh bash weleh.sh
 https://raw.githubusercontent.com/cybertize/joekers/default/scripts/ssr.sh && screen -S ssr bash ssr.sh
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/sodosok.sh && screen -S ss bash sodosok.sh
-https://raw.githubusercontent.com/cybertize/joekers/default/scripts/wg.sh && screen -S wg bash wg.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/libev.sh && screen -S ss bash sodosok.sh
+https://raw.githubusercontent.com/cybertize/joekers/default/scripts/wireguard.sh && screen -S wg bash wg.sh
 https://raw.githubusercontent.com/cybertize/joekers/default/scripts/v2ray.sh && screen -S v2ray bash v2ray.sh
 
 https://raw.githubusercontent.com/cybertize/joekers/default/scripts/setbr.sh && bash set-br.sh
