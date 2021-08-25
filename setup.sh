@@ -23,7 +23,7 @@ wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/libe
 wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/wireguard.sh && screen -S wg bash wireguard.sh
 wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/v2ray.sh && screen -S v2ray bash v2ray.sh
 
-wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/setbr.sh && bash set-br.sh
+wget -q https://raw.githubusercontent.com/cybertize/joekers/default/scripts/setbr.sh && bash setbr.sh
 
 rm -f /root/sshvpn.sh
 rm -f /root/weleh.sh
