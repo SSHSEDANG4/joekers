@@ -11,6 +11,7 @@ if [ -f "/etc/v2ray/domain" ]; then
 	echo "Script Already Installed"; exit 0
 fi
 
+touch /root/domain;
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 
