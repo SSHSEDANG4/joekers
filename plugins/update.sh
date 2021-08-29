@@ -16,14 +16,14 @@ apt-get install ruby
 gem install lolcat
 apt-get install figlet
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/anisakansa/project1/main/update/menu.sh"
-wget -O ssh "https://raw.githubusercontent.com/anisakansa/project1/main/update/ssh.sh"
-wget -O ssssr "https://raw.githubusercontent.com/anisakansa/project1/main/update/ssssr.sh"
-wget -O trojaan "https://raw.githubusercontent.com/anisakansa/project1/main/update/trojaan.sh"
-wget -O v2raay "https://raw.githubusercontent.com/anisakansa/project1/main/update/v2raay.sh"
-wget -O wgr "https://raw.githubusercontent.com/anisakansa/project1/main/update/wgr.sh"
-wget -O vless "https://raw.githubusercontent.com/anisakansa/project1/main/update/vleess.sh"
-wget -O bbr "https://raw.githubusercontent.com/anisakansa/project1/main/update/bbr.sh"
+wget -O menu "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/menu.sh"
+wget -O ssh "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/update/ssh.sh"
+wget -O ssssr "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/update/ssssr.sh"
+wget -O trojaan "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/update/trojaan.sh"
+wget -O v2raay "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/update/v2raay.sh"
+wget -O wgr "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/update/wgr.sh"
+wget -O vless "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/update/vleess.sh"
+wget -O bbr "https://raw.githubusercontent.com/cybertize/joekers/default/plugins/update/bbr.sh"
 chmod +x menu
 chmod +x l2tp
 chmod +x ssh
