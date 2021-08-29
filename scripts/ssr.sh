@@ -123,7 +123,7 @@ if [[ ${OS} == "centos" ]]; then
 }
 Start_SSR(){
 	check_pid
-	wget -O /etc/init.d/ssrmu "https://raw.githubusercontent.com/anisakansa/project1/main/ssrmu"
+	wget -O /etc/init.d/ssrmu "https://raw.githubusercontent.com/cybertize/joekers/default/scripts/ssrmu"
 	/etc/init.d/ssrmu start
 }
 Install_SSR(){
