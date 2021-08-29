@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 
 MYIP=$(wget -qO- icanhazip.com);
 #PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
