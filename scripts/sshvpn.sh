@@ -371,6 +371,3 @@ cd
 rm -f /root/key.pem
 rm -f /root/cert.pem
 rm -f /root/sshvpn.sh
-
-# finihsing
-clear
