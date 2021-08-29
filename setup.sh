@@ -87,5 +87,3 @@ echo "	Restore Data" | tee -a log-install.txt
 echo "	Auto Delete Expired Account" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "==================================================================" | tee -a log-install.txt
-echo ""
-reboot
