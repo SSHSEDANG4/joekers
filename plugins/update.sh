@@ -36,7 +36,6 @@ chmod +x bbr
 
 echo "0 5 * * * root clear-log && reboot" > /etc/crontab
 echo "0 0 * * * root xp" > /etc/crontab
-clear
 echo " Fix minor Bugs"
 echo " Now You Can Change Port Of Some Services"
 echo " Reboot 5 Sec"
