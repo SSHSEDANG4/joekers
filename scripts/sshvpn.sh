@@ -78,6 +78,9 @@ echo "/usr/bin/false" >> /etc/shells
 echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
 sed -i '$ i\echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6' /etc/rc.local
 
+sed -i 's/Port 22/Port 22/g' /etc/ssh/sshd_config
+sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
+
 apt -y -qq update; apt -y -qq upgrade; apt -y -qq dist-upgrade
 
 apt -y -qq install wget curl python ruby dos2unix dnsutils jq tcpdump dsniff grepcidr \
